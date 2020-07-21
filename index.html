@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper {
+            width: 800px;
+            height: 450px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper"></div>
+</body>
+<script src="js/banner.js"></script>
+<script>
+    var oDiv = document.getElementsByClassName('wrapper')[0];
+    createBannerArea(oDiv, [
+        { imgUrl: './image/01.jpg', link: 'http://www.baidu.com' },
+        { imgUrl: './image/02.jpg', link: 'http://www.baidu.com' },
+        { imgUrl: './image/03.jpg', link: 'http://www.baidu.com' },
+        { imgUrl: './image/04.jpg', link: 'http://www.baidu.com' }
+    ])
+</script>
+
+</html>
